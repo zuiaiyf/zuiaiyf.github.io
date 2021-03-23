@@ -1,10 +1,77 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meat charset="utf-8" />
-  <title>隐锋_个人空间</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="隐锋_,B站,弹幕,动漫,游戏,动画,新番,洛天依,">
+  <meta name="description" content="你感兴趣的视频都在B站，大家可以在这里找到许多欢乐。欢迎来到隐锋_的b站空间">
+  <link rel="icon" href="./images/ico/favicon.ico" type="image/x-icon">
+  <title>隐锋_的个人空间</title>
+<style>
+  body{
+    margin:0px;
+    font-family:Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+  }
+.to-top{
+	display:none;
+	background-position-x:-40px;
+	margin-left:712px;
+	position:fixed;
+	bottom:100px;
+	right:20px;
+	transform:translateY(0);
+	width:62px;
+	height:85px;
+	cursor:pointer;
+	background-image:url(./images/index/space-to-top.png);
+	background-position:-40px -44px;
+}
+.wrapper{
+	width:1283px!important;
+	margin:0 auto;
+	position:relative;
+}
+.h-inner{
+	background-image:url(./images/index/h-inner.png);
+	background-position:50%;
+	background-size:cover;
+	transition: background-image .2s ease,background-size 1s ease;
+    padding-top: 116px;
+    position: relative;
+}
+.h-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 84px;
+    background-image: url(./images/index/1.png);
+    background-repeat: repeat-x;
+</style>
 </head>
 <body>
+  <div class="Dingbu-header">
+	<div class="mini-header">
+		<div class="mini-header_content">
+			<div class="nav-link">
+				我是一个智障，这里太难了，模仿不来
+			</div>
+			<div class="nav-user-center"></div>
+		</div>
+	</div>
+  </div>
+  <div id="app" class="owner">
+	<div class="h">
+		<div class="wrapper">
+			<div class="h-inner">
+				<div class="h-gradient"></div>
+				<div class="h-user"></div>
+			</div>
+		</div>
+	</div>
+	<div id="navigator" class="n"></div>
+	<div class="s-space"></div>
+	<div class="to-top"></div>
+  </div>
   <h1>欢迎访问我的个人网站</h1>
 </body>
 </html>
