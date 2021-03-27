@@ -7,71 +7,83 @@
   <link rel="icon" href="./images/ico/favicon.ico" type="image/x-icon">
   <title>隐锋_的个人空间</title>
 <style>
-  body{
-    margin:0px;
-    font-family:Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
-  }
-.to-top{
-	display:none;
-	background-position-x:-40px;
-	margin-left:712px;
-	position:fixed;
-	bottom:100px;
-	right:20px;
-	transform:translateY(0);
-	width:62px;
-	height:85px;
-	cursor:pointer;
-	background-image:url(./images/index/space-to-top.png);
-	background-position:-40px -44px;
+*{
+margin:0;
+padding:0;
+font-family:Serif;
+letter-spacing:.05em;
 }
-.wrapper{
-	width:1283px!important;
-	margin:0 auto;
-	position:relative;
+html{
+height:100%;
 }
-.h-inner{
-	background-image:url(./images/index/h-inner.png);
-	background-position:50%;
-	background-size:cover;
-	transition: background-image .2s ease,background-size 1s ease;
-    padding-top: 116px;
-    position: relative;
+body{
+height:100%;
 }
-.h-gradient {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 84px;
-    background-image: url(./images/index/1.png);
-    background-repeat: repeat-x;
+.Container{
+height:100%;
+background-image: linear-gradient(to right, #fbc2eb , #a6c1ee);
+}
+.Login-wrapper{
+background-color:#fff;
+width:250px;
+height:500px;
+border-radius:15px;
+padding:0 50px;
+position:relative;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+}
+.Login-wrapper .Header{
+font-size:30px;
+font-weight:bold;
+text-align:center;
+line-height:200px;
+}
+.Login-wrapper .Form-wrapper .input-item{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:0;
+padding:10px;
+border-bottom:1px solid rgb(128,125,125);
+font-size:15px;
+outline:none;
+}
+.Login-wrapper .Form-wrapper .input-item::placeholder{
+text-transform:uppercase;
+}
+.Login-wrapper .Form-wrapper .Btn{
+text-align:center;
+padding:10px;
+width:100%;
+margin-top:40px;
+background-image: linear-gradient(to right, #a6c1ee,#fbc2eb);
+color:#fff;
+}
+.Login-wrapper .Msg{
+text-align:center;
+line-height:80px;
+}
+.Login-wrapper .Msg a{
+text-decoration-line:none;
+color:#a6c1ee;
+}
 </style>
 </head>
 <body>
-  <div class="Dingbu-header">
-	<div class="mini-header">
-		<div class="mini-header_content">
-			<div class="nav-link">
-				我是一个智障，这里太难了，模仿不来
-			</div>
-			<div class="nav-user-center"></div>
+	<div class="Container">
+		<div class="Login-wrapper">
+			<div class="Header">Login</div>
+				<div class="Form-wrapper">
+					<input type="text" name="username" placeholder="username" class="input-item">
+					<input type="password" name="password" placeholder="password" class="input-item">
+				<a href="https://www.cxqq.net/forum.php?mod=viewthread&tid=1&fromuid=1875" target="_blank" title="点此访问我的推广"><div class="Btn">Tuiguang</div></a>
+		</div>
+	<div class="Msg">
+	Don't have account? <a href="#">Sign up</a>
+	</div>
 		</div>
 	</div>
-  </div>
-  <div id="app" class="owner">
-	<div class="h">
-		<div class="wrapper">
-			<div class="h-inner">
-				<div class="h-gradient"></div>
-				<div class="h-user"></div>
-			</div>
-		</div>
-	</div>
-	<div id="navigator" class="n"></div>
-	<div class="s-space"></div>
-	<div class="to-top"></div>
-  </div>
-  <h1>欢迎访问我的个人网站</h1>
 </body>
 </html>
