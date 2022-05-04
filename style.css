@@ -1,0 +1,116 @@
+*{
+margin:0;
+padding:0;
+font-family:Serif;
+letter-spacing:.05em;
+}
+html{
+height:100%;
+}
+body{
+margin:0px;
+font-family:Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+color:#222;
+font-size:12px;
+overflow-y:scroll;
+height:100%;
+background-color:rgb(250,249,247);
+border:0;
+padding:0;
+}
+.bg{
+	margin:0 auto;
+	padding:0 10px;
+	border:0;
+	width:1300px;
+	background:url(./Images/header.jpg) no-repeat;
+	padding-top: 50px;
+}
+.Header{
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	border:0;
+	padding-left:200px;
+}
+.Menu{
+	width:1000px;
+	margin:0 auto;
+	background:url(./Images/lace_hd_ft.png) no-repeat bottom left;
+	border-bottom:0px;
+	padding-top:60px;
+}
+.Main{
+	width:1000px;
+	margin:0 auto;
+	background:url("./Images/lace_repeat.png") repeat-y;
+}
+h1{
+	line-height:110px;
+}
+.text1{
+	margin:0 auto;
+	padding:0 10px;
+	border:0;
+	width:900px;
+	height:1000px;
+	margin-left:40px;
+}
+.Footer{
+	width:1000px;
+	margin:0 auto;
+	background:url(./Images/lace_hd_ft.png) bottom right;
+}
+a{
+	text-decoration:none;
+	color: #315efb;
+}
+/* .xian{
+	border:1px #222 solid;
+} */
+.text1{
+	display: flex;
+}
+.left{
+	flex: 3;
+	background-color: #ededec;
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+}
+.right{
+	flex:1;
+	margin-left: 5px;
+}
+.maxbox{
+	background-color: #ededec;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.boxtitle{
+	color:#3b3333;
+	line-height: 32px;
+
+}
+.boxtext{
+	display: flex;
+	flex-direction: column;
+	line-height: 32px;
+	align-items: center;
+	margin: 10px;
+}
+.title1{
+	color:#3b3333;
+	line-height: 32px;
+}
+.lefttitle{
+	color: #915833;
+	font-weight: 700;
+}
+font{
+	font: 12px/1.5 Tahoma,Helvetica,'SimSun',sans-serif;
+	color: #af5833;
+	font-size: 22px;
+	font-weight: 600;
+}
