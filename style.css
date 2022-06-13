@@ -23,7 +23,7 @@ padding:0;
 	padding:0 10px;
 	border:0;
 	width:1300px;
-	background:url(./Images/header.jpg) no-repeat;
+	background:url(./images/header.jpg) no-repeat;
 	padding-top: 50px;
 }
 .Header{
@@ -36,14 +36,14 @@ padding:0;
 .Menu{
 	width:1000px;
 	margin:0 auto;
-	background:url(./Images/lace_hd_ft.png) no-repeat bottom left;
+	background:url(./images/lace_hd_ft.png) no-repeat bottom left;
 	border-bottom:0px;
 	padding-top:60px;
 }
 .Main{
 	width:1000px;
 	margin:0 auto;
-	background:url("./Images/lace_repeat.png") repeat-y;
+	background:url("./images/lace_repeat.png") repeat-y;
 }
 h1{
 	line-height:110px;
@@ -59,7 +59,7 @@ h1{
 .Footer{
 	width:1000px;
 	margin:0 auto;
-	background:url(./Images/lace_hd_ft.png) bottom right;
+	background:url(./images/lace_hd_ft.png) bottom right;
 }
 a{
 	text-decoration:none;
